@@ -1,9 +1,7 @@
 {
   "entityType" : "ENTITY_GROUP",
   "entity" : {
-    "additionalInfo" : {
-      "description" : ""
-    },
+    "additionalInfo" : null,
     "configuration" : {
       "columns" : [ {
         "type" : "ENTITY_FIELD",
@@ -13,6 +11,18 @@
         "type" : "ENTITY_FIELD",
         "key" : "title",
         "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "email",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "country",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "city",
+        "sortOrder" : "NONE"
       } ],
       "settings" : { },
       "actions" : { }
@@ -20,19 +30,19 @@
     "edgeGroupAll" : false,
     "externalId" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "cd8d5b80-6225-11ef-8d11-679f16bcbbcb"
+      "id" : "b6c6a880-3f79-11ef-b3b9-cf02e18c4429"
     },
-    "groupAll" : false,
+    "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "cd8d5b80-6225-11ef-8d11-679f16bcbbcb"
+      "id" : "b6c6a880-3f79-11ef-b3b9-cf02e18c4429"
     },
-    "name" : "d-g-2",
+    "name" : "All",
     "ownerId" : {
-      "entityType" : "TENANT",
-      "id" : "b65b6390-3f79-11ef-b3b9-cf02e18c4429"
+      "entityType" : "CUSTOMER",
+      "id" : "b6c5e530-3f79-11ef-b3b9-cf02e18c4429"
     },
-    "type" : "DASHBOARD"
+    "type" : "CUSTOMER"
   },
   "relations" : [ ],
   "attributes" : {
